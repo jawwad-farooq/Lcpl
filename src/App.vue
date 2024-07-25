@@ -1,5 +1,6 @@
 <template>
   <NavBar/>
+  <router-view />
   <footerSec contentLine="Created By SomeOne" />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 </template>

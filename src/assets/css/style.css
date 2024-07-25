@@ -1,6 +1,9 @@
 .App {
     text-align: center;
   }
+  body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important; */
+  }
   
   .App-logo {
     height: 40vmin;
@@ -19,7 +22,7 @@
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     width: 100%;
@@ -44,6 +47,96 @@
   .App-link {
     color: #61dafb;
   }
+
+  .homepage section.sec-1 {
+    align-content: center;
+    color: #fff;
+    height: 80vh;
+    width: 100%;
+    background-image: url('../img/banenr-1.jpg');
+  }
+  .homepage .sec-1 h1 {
+    font-size: 100px;
+    line-height: 118px;
+    font-weight: 700;
+    margin: 0px;
+  }
+  .homepage .sec-1 h2 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .homepage .sec-1 p {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 0px;
+  }
+  .register {
+    height: 80vh;
+  }
+  .form-box {
+    width: 100%;
+    max-width: 480px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 9px 0px lightgray;
+    margin: 9% auto;
+    padding: 2em;
+  }
+  .form-box input {
+    padding: 11px;
+    width: 100%;
+    max-width: 360px;
+    font-size: 16px;
+    margin-bottom: 9px;
+    border: 1px solid lightgray;
+  }
+  .form-box button {
+    padding: 11px;
+    width: 100%;
+    max-width: 360px;
+    font-size: 16px;
+    margin-bottom: 9px;
+    background-color: lightskyblue;
+    border: 1px solid lightgray;
+    color: white;
+}
+
+/* Home page */
+.course-row .boxes {
+  width: 21%;
+  padding: 16px;
+  box-shadow: 0px 0px 9px 0px gray;
+}
+.course-row {
+  width: 100%;
+  max-width: 1310px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.boxes h4 {
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 800;
+  margin: 0px;
+}
+.boxes p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  min-height: 120px;
+}
+.homepage section.sec-2 h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 800;
+}
+section.sec-2 {
+  padding: 3em 0px;
+}
+
   
   @keyframes App-logo-spin {
     from {
