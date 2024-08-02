@@ -73,6 +73,15 @@
     font-weight: 400;
     margin: 0px;
   }
+  button.btn {
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 40px;
+  }
   .register {
     height: 80vh;
   }
